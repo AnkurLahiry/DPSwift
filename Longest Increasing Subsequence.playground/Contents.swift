@@ -1,5 +1,6 @@
 import UIKit
 
+
 func longestIncreasingSubsequence(_ arr : [Int]) -> Int {
     guard arr.count > 1 else {
         return 1
